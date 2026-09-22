@@ -1,0 +1,50 @@
+[
+  {
+    "id": "general",
+    "name": "General (All Departments)",
+    "short": "General",
+    "color": "#3d7ea6"
+  },
+  {
+    "id": "bioe",
+    "name": "Bioengineering",
+    "short": "BioE",
+    "color": "#2e8b57"
+  },
+  {
+    "id": "chembe",
+    "name": "Chemical and Biomolecular Engineering",
+    "short": "ChemBE",
+    "color": "#c47a3a"
+  },
+  {
+    "id": "mse",
+    "name": "Materials Science and Engineering",
+    "short": "MSE",
+    "color": "#8b5e83"
+  },
+  {
+    "id": "cee",
+    "name": "Civil and Environmental Engineering",
+    "short": "CEE",
+    "color": "#1a9b8a"
+  },
+  {
+    "id": "cs",
+    "name": "Computer Science",
+    "short": "CS",
+    "color": "#5b4b8a"
+  },
+  {
+    "id": "ece",
+    "name": "Electrical and Computer Engineering",
+    "short": "ECE",
+    "color": "#c49212"
+  },
+  {
+    "id": "mae",
+    "name": "Mechanical and Aerospace Engineering",
+    "short": "MAE",
+    "color": "#c45c4a"
+  }
+]

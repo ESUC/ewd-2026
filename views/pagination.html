@@ -32,16 +32,19 @@ permalink: "/{{ org.id }}/"
 
 <body>
     <div class="page-wrapper">
-        <a href="{{ "/#" | append: org.id | url }}" id="back-text"> ‹ back to EWD 2022</a>
+        <a href="{{ "/#orgs" | url }}" id="back-text"> ‹ back to EWD 2026</a>
         <div class="card {{ org.id }}" id="{{ org.id }}" data-names="{{ org.full_name }} {{ org.short_name }}">
-            <div class="card-img-wrapper"><img src="{{ "/data/" | append: org.id | append: "/logo.png" | url }}"
-                    class="card-img">
+            <div class="card-img-wrapper">
+                {% if org.has_logo %}
+                <img src="{{ "/data/" | append: org.id | append: "/logo.png" | url }}"
+                    class="card-img" alt="{{ org.full_name }} logo">
+                {% endif %}
                 <div class="id-wrapper">
                     <h3>{{ org.full_name }}</h3>
                     {% if org.short_name != "" %}
                     <em>{{ org.short_name }}</em><br>
                     {% endif %}
-                    {{ org.location }}, Table {{ org.table }}
+                    {{ org.department_name }} · Table {{ org.table }}
                     <hr>
                 </div>
             </div>
@@ -92,7 +95,7 @@ permalink: "/{{ org.id }}/"
             </div>
             <svg class="close" width="27" height="27" viewBox="0 0 27 27" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
-                <a href="{{ "/#" | append: org.id | url }}">
+                <a href="{{ "/#orgs" | url }}">
                     <rect x="1" y="1" width="25" height="25" fill="white" fill-opacity="0" />
                     <path d="M1 1L26 26M26 1L1 26" stroke="black" />
                 </a>

@@ -1,0 +1,63 @@
+<p>
+  The Community Expo is at the Court of Sciences. Tables are grouped by major.
+  Search, filter by department, or tap a table on the map to jump to that club.
+</p>
+
+<div class="expo" id="expo">
+  <label class="expo-search-label" for="expo-search">Search organizations</label>
+  <input type="search" id="expo-search" class="expo-search" placeholder="Search by club, acronym, or table number" autocomplete="off">
+
+  <div class="expo-filters" role="tablist" aria-label="Filter by department">
+    <button type="button" class="expo-chip is-active" data-dept="all" aria-pressed="true">All</button>
+    {% for dept in departments %}
+    <button type="button" class="expo-chip" data-dept="{{ dept.id }}" aria-pressed="false" style="--chip-color: {{ dept.color }}">{{ dept.short }}</button>
+    {% endfor %}
+  </div>
+
+  <div class="expo-map-block">
+    <div class="expo-map-header">
+      <h2 class="expo-subhead">Court of Sciences map</h2>
+      <p class="expo-map-hint">Tap a numbered table to jump to that club.</p>
+    </div>
+    <div class="expo-map-scroll" id="expo-map-scroll">
+      <div id="expo-map" class="expo-map expo-map-photo" role="img" aria-label="Interactive Court of Sciences floor plan">
+        <img src="{{ "/img/ewd-floor-plan-2026.jpg" | url }}" alt="Court of Sciences Community Expo floor plan with numbered tables">
+      </div>
+    </div>
+    <ul class="expo-legend" aria-label="Department colors">
+      {% for dept in departments %}
+      <li><span class="expo-legend-swatch" style="background: {{ dept.color }}"></span>{{ dept.short }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <p class="sr-only" id="expo-live" aria-live="polite"></p>
+
+  <div class="expo-directory" id="expo-directory">
+    {% for dept in departments %}
+    <div class="expo-dept" data-dept-group="{{ dept.id }}" style="--dept-color: {{ dept.color }}">
+      <h2 class="expo-dept-title">
+        <span class="expo-dept-dot" style="background: {{ dept.color }}"></span>
+        {{ dept.name }}
+      </h2>
+      <div class="expo-card-list">
+        {% for org in orgs %}
+        {% if org.department == dept.id %}
+        <a class="expo-card" id="org-{{ org.id }}" href="{{ "/" | append: org.id | append: "/" | url }}" data-org="{{ org.id }}" data-dept="{{ org.department }}" data-tables="{{ org.tables | join: "," }}" data-names="{{ org.full_name }} {{ org.short_name }} {{ org.table }}">
+          <span class="expo-card-table">{{ org.table }}</span>
+          <span class="expo-card-body">
+            <span class="expo-card-name">{{ org.full_name }}</span>
+          </span>
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <p class="expo-empty" id="expo-empty" hidden>No organizations match that search.</p>
+</div>
+
+<script type="application/json" id="expo-orgs-data">{{ orgs | stringify }}</script>
+<script type="application/json" id="expo-dept-data">{{ departments | stringify }}</script>

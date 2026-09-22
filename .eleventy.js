@@ -10,6 +10,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("android-chrome-192x192.png");
     eleventyConfig.addPassthroughCopy("android-chrome-512x512.png");
     eleventyConfig.addPassthroughCopy("site.webmanifest");
+    eleventyConfig.addFilter("stringify", (value) => JSON.stringify(value).replace(/</g, "\\u003c"));
+    eleventyConfig.addFilter("join", (arr, sep) => Array.isArray(arr) ? arr.join(sep) : arr);
+
     eleventyConfig.setLiquidOptions({
         dynamicPartials: false,
         strictFilters: false,
