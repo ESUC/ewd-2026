@@ -705,28 +705,6 @@
     "department_name": "Electrical and Computer Engineering"
   },
   {
-    "short_name": "",
-    "description": "AI for Safety is a student organization exploring safe, reliable, and responsible AI. Come by to learn about research, projects, and how to get involved.",
-    "location": "Court of Sciences",
-    "website": "",
-    "mailing_list": "",
-    "linktree": "",
-    "linkedin": "",
-    "slack": "",
-    "instagram": "",
-    "discord": "",
-    "facebook": "",
-    "id": "aifs",
-    "full_name": "AI for Safety",
-    "has_logo": false,
-    "table": "34",
-    "tables": [
-      34
-    ],
-    "department": "ece",
-    "department_name": "Electrical and Computer Engineering"
-  },
-  {
     "short_name": "QCSA",
     "description": "The Quantum Computing Student Association introduces students to quantum computing through workshops, talks, and community. No prior experience required.",
     "location": "Court of Sciences",
@@ -741,9 +719,9 @@
     "id": "qcsa",
     "full_name": "Quantum Computing Student Association",
     "has_logo": false,
-    "table": "35",
+    "table": "34",
     "tables": [
-      35
+      34
     ],
     "department": "ece",
     "department_name": "Electrical and Computer Engineering"
@@ -754,7 +732,7 @@
     "short_name": "3D4E",
     "description": "We are UCLA's 3D printing and rapid prototyping club! Whether you're a beginner, or have been 3D printing for a decade, we have a place for you in our club, whether it's through one of our various exciting projects, outreach/social events, or consulting with outside organizations. We hope to see you at EWD!",
     "location": "Court of Sciences",
-    "table": "36",
+    "table": "35",
     "website": "https://3d4eatucla.github.io/",
     "mailing_list": "",
     "linktree": "",
@@ -764,7 +742,7 @@
     "discord": "",
     "facebook": "",
     "tables": [
-      36
+      35
     ],
     "department": "ece",
     "department_name": "Electrical and Computer Engineering",
@@ -785,9 +763,9 @@
     "id": "bes",
     "full_name": "Bruin Earth Solutions",
     "has_logo": false,
-    "table": "37",
+    "table": "36",
     "tables": [
-      37
+      36
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering"
@@ -798,10 +776,32 @@
     "short_name": "BEAM",
     "description": "BEAM is an after-school STEM outreach program that provides weekly hands-on lessons to Title I LAUSD elementary schools to get students excited about STEM. We meet to plan out fun interactive lessons and go in person to the schools to mentor students.",
     "location": "Court of Sciences",
-    "table": "38",
+    "table": "37",
     "website": "",
     "mailing_list": "",
     "linktree": "https://linktr.ee/beamucla",
+    "linkedin": "",
+    "slack": "",
+    "instagram": "",
+    "discord": "",
+    "facebook": "",
+    "tables": [
+      37
+    ],
+    "department": "mae",
+    "department_name": "Mechanical and Aerospace Engineering",
+    "has_logo": true
+  },
+  {
+    "id": "asme",
+    "full_name": "American Society of Mechanical Engineers",
+    "short_name": "ASME",
+    "description": "ASME at UCLA challenges students to set new standards in the field of mechanical engineering, in all scopes--from individual development, to the Samueli Engineering community, to UCLA, to the rest of the world. Our purpose is to provide resources for students to build strong technical, professional, and social foundations in order to become contributors to the global community.",
+    "location": "Court of Sciences",
+    "table": "38",
+    "website": "",
+    "mailing_list": "",
+    "linktree": "https://linktr.ee/asmebruins",
     "linkedin": "",
     "slack": "",
     "instagram": "",
@@ -815,34 +815,12 @@
     "has_logo": true
   },
   {
-    "id": "asme",
-    "full_name": "American Society of Mechanical Engineers",
-    "short_name": "ASME",
-    "description": "ASME at UCLA challenges students to set new standards in the field of mechanical engineering, in all scopes--from individual development, to the Samueli Engineering community, to UCLA, to the rest of the world. Our purpose is to provide resources for students to build strong technical, professional, and social foundations in order to become contributors to the global community.",
-    "location": "Court of Sciences",
-    "table": "39",
-    "website": "",
-    "mailing_list": "",
-    "linktree": "https://linktr.ee/asmebruins",
-    "linkedin": "",
-    "slack": "",
-    "instagram": "",
-    "discord": "",
-    "facebook": "",
-    "tables": [
-      39
-    ],
-    "department": "mae",
-    "department_name": "Mechanical and Aerospace Engineering",
-    "has_logo": true
-  },
-  {
     "id": "bruinspace",
     "full_name": "Bruin Spacecraft Group",
     "short_name": "BSG",
     "description": "Bruin Spacecraft Group welcomes all students with a passion for space and spacecraft! We offer high-altitude weather balloon, scientific payload, and CubeSat projects which members collaborate on, as well as enrichment speaker events and workshops to develop relevant skills and inspire a new generation of spacecraft scientists and engineers.",
     "location": "Court of Sciences",
-    "table": "40",
+    "table": "39",
     "website": "https://bruinspace.com/",
     "mailing_list": "",
     "linktree": "https://linktr.ee/uclabruinspace",
@@ -852,7 +830,7 @@
     "discord": "",
     "facebook": "",
     "tables": [
-      40
+      39
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering",
@@ -864,7 +842,7 @@
     "short_name": "BFR",
     "description": "Bruin Formula Racing designs, builds, and races a formula-style race car against teams all around the world.",
     "location": "Court of Sciences",
-    "table": "41",
+    "table": "40",
     "website": "https://www.bruinracing.com/formula/",
     "mailing_list": "",
     "linktree": "",
@@ -874,7 +852,7 @@
     "discord": "",
     "facebook": "",
     "tables": [
-      41
+      40
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering",
@@ -886,7 +864,7 @@
     "short_name": "SMV",
     "description": "Bruin Supermileage is a student-run project that designs, builds, and races highly energy-efficient internal combustion engine and battery electric vehicles. We compete in the collegiate Shell Eco-Marathon Americas event each year against teams from throughout the Western Hemisphere. Through this experience, our team members learn real-world engineering and leadership skills while encouraging environmental sustainability. The nature of the project necessitates an interdisciplinary team composition, including mechanical, electrical, materials science, and computer science engineers, among others.",
     "location": "Court of Sciences",
-    "table": "42",
+    "table": "41",
     "website": "https://www.bruinracing.com/smv/",
     "mailing_list": "",
     "linktree": "",
@@ -896,7 +874,7 @@
     "discord": "",
     "facebook": "",
     "tables": [
-      42
+      41
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering",
@@ -908,7 +886,7 @@
     "short_name": "Baja SAE",
     "description": "We design, build, and test a new single-seat off-road vehicle each year. We make every part of the car ourselves, present our design in professional reviews, and race against other colleges in several nationwide competitions.",
     "location": "Court of Sciences",
-    "table": "43",
+    "table": "42",
     "website": "https://www.bruinracing.com/baja/",
     "mailing_list": "",
     "linktree": "",
@@ -918,7 +896,7 @@
     "discord": "",
     "facebook": "",
     "tables": [
-      43
+      42
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering",
@@ -930,7 +908,7 @@
     "short_name": "UAS@UCLA",
     "description": "We are the premier undergraduate aerial robotics team at UCLA. Our student-run team designs, manufactures, and tests cutting-edge drone hardware and software. We seek out hands-on projects and provide students multidisciplinary opportunities to work with drones while fostering valuable career skills. Anyone is welcome, no prior experience required!",
     "location": "Court of Sciences",
-    "table": "44",
+    "table": "43",
     "website": "https://uas.seas.ucla.edu/",
     "mailing_list": "https://forms.gle/MfCPJT7Qf5WBKZSt8",
     "linktree": "",
@@ -940,7 +918,7 @@
     "discord": "",
     "facebook": "",
     "tables": [
-      44
+      43
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering",
@@ -952,7 +930,7 @@
     "short_name": "DBF",
     "description": "Design Build Fly, an engineering project club focused on promoting the application of theoretical engineering knowledge to real-world problems, competes in an annual competition hosted by AIAA. This competition involves constructing a remote controlled electric airplane that is capable of completing a series of missions.",
     "location": "Court of Sciences",
-    "table": "45",
+    "table": "44",
     "website": "",
     "mailing_list": "https://tinyurl.com/joindbfucla",
     "linktree": "https://linktr.ee/dbfatucla",
@@ -962,7 +940,7 @@
     "discord": "",
     "facebook": "",
     "tables": [
-      45
+      44
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering",
@@ -974,7 +952,7 @@
     "short_name": "",
     "description": "Rocket Project at UCLA is a student engineering team that teaches rocket engineering through hands-on exposure to the complete design-build-test cycle of engineering, giving students an opportunity to apply classroom subjects to a project with real-world challenges and thrilling results.",
     "location": "Court of Sciences",
-    "table": "46",
+    "table": "45",
     "website": "http://rocketproject.seas.ucla.edu/",
     "mailing_list": "https://forms.gle/QhQN7UHEFEhDzdmi9",
     "linktree": "https://linktr.ee/rocketprojectatucla",
@@ -984,7 +962,7 @@
     "discord": "",
     "facebook": "",
     "tables": [
-      46
+      45
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering",
@@ -996,7 +974,7 @@
     "short_name": "",
     "description": "AIAA is the parent organization for Rocket Project, Design Build Fly, and Unmanned Arial Systems. We provide academic and professional resources to students interested in aerospace and host a variety of engineering events throughout the school year.",
     "location": "Court of Sciences",
-    "table": "47",
+    "table": "46",
     "website": "http://aiaa.seas.ucla.edu/",
     "mailing_list": "",
     "linktree": "linktr.ee/aiaa_ucla",
@@ -1006,7 +984,7 @@
     "discord": "https://discord.gg/VaAMbuQNuh",
     "facebook": "",
     "tables": [
-      47
+      46
     ],
     "department": "mae",
     "department_name": "Mechanical and Aerospace Engineering",
